@@ -44,9 +44,9 @@ PACKAGES="$PACKAGES script-utils"
 PACKAGES="$PACKAGES luci-i18n-samba4-zh-cn"
 # 自定义自己常用的组件
 PACKAGES="$PACKAGES luci-i18n-autoreboot-zh-cn"
-PACKAGES="$PACKAGES luci-app-unblockneteasemusic"
+#PACKAGES="$PACKAGES luci-app-unblockneteasemusic"
 PACKAGES="$PACKAGES luci-i18n-vlmcsd-zh-cn"
-
+#PACKAGES="$PACKAGES mosdns"
 # 判断是否需要编译 Docker 插件
 if [ "$INCLUDE_DOCKER" = "yes" ]; then
     PACKAGES="$PACKAGES luci-i18n-dockerman-zh-cn"
